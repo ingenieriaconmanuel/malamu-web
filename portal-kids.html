@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal Kids - Área interactiva y juegos educativos para niños">
+    <title>Portal Kids - MALAMU</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+    <style>
+        .portal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .portal-game {
+            background: linear-gradient(135deg, #f9f7f3 0%, white 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        .portal-game:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .game-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .portal-game h3 {
+            margin-bottom: 0.5rem;
+            color: #8B9A6F;
+        }
+        .coming-soon {
+            display: inline-block;
+            background-color: #E8B856;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">🎨</span>
+                <span class="logo-text">MALAMU</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="estimulaciones.html">Estimulaciones</a></li>
+                <li><a href="donde-estamos.html">Dónde Estamos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="portal-kids.html" class="btn-portal">Portal Kids 🎮</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Portal Kids 🎮</h1>
+            <p>Diversión y aprendizaje en un solo lugar</p>
+        </div>
+    </section>
+
+    <main class="container page-content">
+        <section class="section">
+            <h2>Bienvenido al Mundo MALAMU</h2>
+            <p>Aquí encontrarás juegos educativos, actividades creativas y contenido especialmente diseñado para niños. ¡Explora, aprende y diviértete!</p>
+        </section>
+
+        <section class="section">
+            <h2>Nuestros Juegos y Actividades</h2>
+            <div class="portal-grid">
+                <div class="portal-game">
+                    <div class="game-icon">🎨</div>
+                    <h3>Pintura Interactiva</h3>
+                    <p>Pinta con los colores de MALAMU y crea tu propia obra maestra digital</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">🎵</div>
+                    <h3>Compositor Musical</h3>
+                    <p>Crea tus propias melodías con instrumentos virtuales</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">🧩</div>
+                    <h3>Puzzles Creativos</h3>
+                    <p>Resuelve puzzles inspirados en nuestros talleres de artes</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">📖</div>
+                    <h3>Historias Interactivas</h3>
+                    <p>Lee y participa en historias mágicas con personajes especiales</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">🌳</div>
+                    <h3>Aventura en la Naturaleza</h3>
+                    <p>Aprende sobre ecología mientras ayudas a los personajes de MALAMU</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">🧠</div>
+                    <h3>Juegos de Memoria</h3>
+                    <p>Fortalece tu memoria con divertidos retos y desafíos</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">🚀</div>
+                    <h3>Aventuras de Danzas</h3>
+                    <p>Sigue el ritmo y crea tus propios movimientos de danza</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+
+                <div class="portal-game">
+                    <div class="game-icon">💝</div>
+                    <h3>Retos Emocionales</h3>
+                    <p>Aprende sobre emociones a través de situaciones cotidianas</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Recursos para Padres</h2>
+            <div class="resources">
+                <div class="resource-card">
+                    <h4>📚 Biblioteca Digital</h4>
+                    <p>Acceso a cuentos, artículos y guías sobre desarrollo infantil</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+                <div class="resource-card">
+                    <h4>🎓 Webinarios</h4>
+                    <p>Charlas en vivo con nuestros expertos sobre crianza consciente</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+                <div class="resource-card">
+                    <h4>📊 Reportes de Avance</h4>
+                    <p>Dashboard personal para ver el desarrollo de tu hijo</p>
+                    <span class="coming-soon">Próximamente</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Consejos para Usar el Portal</h2>
+            <ul class="feature-list">
+                <li>✓ Los juegos están diseñados para aprender jugando</li>
+                <li>✓ No hay límite de tiempo, ¡disfruta a tu ritmo!</li>
+                <li>✓ Todos los contenidos son seguros y educativos</li>
+                <li>✓ Puedes acceder desde cualquier dispositivo</li>
+                <li>✓ Comparte tus creaciones con tus papás</li>
+            </ul>
+        </section>
+    </main>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>¡Pronto Más Diversión!</h2>
+            <p>Estamos desarrollando muchos más juegos y actividades para ti</p>
+            <a href="contacto.html" class="btn btn-large">Sugerir una Actividad</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MALAMU</h4>
+                    <p>Ecosistema de desarrollo consciente para niños</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📱</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📞 +57 300 123 4567</p>
+                    <p>📧 hola@malamu.com</p>
+                    <p>📍 Bogotá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MALAMU. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

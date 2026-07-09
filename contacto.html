@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto - MALAMU">
+    <title>Contacto - MALAMU</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">🎨</span>
+                <span class="logo-text">MALAMU</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="talleres.html">Talleres</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="estimulaciones.html">Estimulaciones</a></li>
+                <li><a href="donde-estamos.html">Dónde Estamos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="portal-kids.html" class="btn-portal">Portal Kids 🎮</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos aquí para responder todas tus preguntas</p>
+        </div>
+    </section>
+
+    <main class="container page-content">
+        <section class="section">
+            <div class="contact-layout">
+                <div class="contact-form">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form id="contactForm" action="https://formspree.io/f/xyzqwerty" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="Consulta sobre talleres">Consulta sobre talleres</option>
+                                <option value="Consulta sobre estimulación">Consulta sobre estimulación</option>
+                                <option value="Consulta sobre cursos">Consulta sobre cursos</option>
+                                <option value="Solicitud de visita">Solicitud de visita</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    
+                    <div class="info-block">
+                        <h4>📞 Teléfono</h4>
+                        <p><a href="tel:+573001234567">+57 (1) 300-123-4567</a></p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">Lunes a Viernes, 7:00 AM - 6:00 PM</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📧 Email</h4>
+                        <p><a href="mailto:hola@malamu.com">hola@malamu.com</a></p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">Respondemos en máximo 24 horas</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>💬 WhatsApp</h4>
+                        <p><a href="https://wa.me/573001234567" target="_blank">+57 300 123 4567</a></p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">Respuestas rápidas en horario laboral</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>📍 Dirección</h4>
+                        <p>Calle 85 #15-45, Usaquén</p>
+                        <p>Bogotá, Colombia</p>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;"><a href="donde-estamos.html">Ver cómo llegar →</a></p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>🕐 Horarios</h4>
+                        <p><strong>Lunes a Viernes:</strong> 7:00 AM - 6:00 PM</p>
+                        <p><strong>Sábados:</strong> 9:00 AM - 1:00 PM</p>
+                        <p><strong>Domingos:</strong> Cerrado</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h4>🌐 Síguenos</h4>
+                        <div class="social-links" style="gap: 1rem; font-size: 1.8rem;">
+                            <a href="#" aria-label="Instagram">📱</a>
+                            <a href="#" aria-label="Facebook">📘</a>
+                            <a href="#" aria-label="TikTok">🎬</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-section">
+                <div class="faq-item">
+                    <h4>¿Cuál es el proceso de inscripción?</h4>
+                    <p>Primero hacemos una visita gratuita, luego una evaluación inicial del niño, y finalmente definimos el programa ideal. Puedes comenzar cuando gustes.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Qué edades atienden?</h4>
+                    <p>Atendemos niños de 0 a 8 años. Tenemos programas específicos según edad.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Hay flexibilidad en horarios?</h4>
+                    <p>Sí. Ofrecemos múltiples opciones de horarios y puedes combinar servicios según necesites.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Qué pasa si mi hijo tiene necesidades especiales?</h4>
+                    <p>Contamos con especialistas y adaptamos nuestros programas. Contáctanos para una consulta personalizada.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Puedo observar las actividades?</h4>
+                    <p>Sí, ofrecemos observaciones pactadas. Nuestro enfoque es totalmente transparente con los padres.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Qué métodos de pago aceptan?</h4>
+                    <p>Aceptamos transferencia bancaria, tarjeta de crédito, débito y efectivo. También planes de cuotas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Estamos Listos para Escucharte</h2>
+            <p>Tu familia es importante para nosotros</p>
+            <a href="#contactForm" class="btn btn-large">Ir al Formulario</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MALAMU</h4>
+                    <p>Ecosistema de desarrollo consciente para niños</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📱</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="WhatsApp">💬</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📞 +57 300 123 4567</p>
+                    <p>📧 hola@malamu.com</p>
+                    <p>📍 Bogotá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MALAMU. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
