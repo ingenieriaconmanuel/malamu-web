@@ -43,8 +43,8 @@ Este proyecto está optimizado para Vercel:
 ## 📧 Contacto
 
 - **Email**: hola@malamu.com
-- **Teléfono**: +57 300 123 4567
-- **Ubicación**: Bogotá, Colombia
+- **Teléfono**: +57 3005478
+- **Ubicación**: Santo Tomás, Colombia
 
 ## 📄 Licencia
 
