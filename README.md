@@ -1,51 +1,108 @@
-# MALAMU - Ecosistema de Desarrollo Consciente
+# MALAMU Website
 
-Sitio web oficial de MALAMU, un ecosistema dedicado al desarrollo infantil integral que combina estimulación temprana con artes expresivas.
+**Un ecosistema de desarrollo consciente para niños**
 
-## 🌟 Características
+> Más que un lugar de cuidado, MALAMU integra estimulación temprana con artes expresivas.
 
-- **Estimulación Temprana (0-3 años)**: Sesiones de psicomotricidad, estimulación sensorial y lenguaje
-- **Talleres de Artes Creativas (4-8 años)**: Pintura, modelado, teatro y música
-- **Tardes de Exploradores**: Actividades temáticas semanales
-- **Respiro Creativo**: Servicio de cuidado enriquecedor
-- **Cursos para Padres y Educadores**: Formación en crianza consciente
-- **Portal Kids**: Área interactiva para niños
+## 🎯 Características Principales
 
-## 📋 Páginas
+### Servicios
+- ✨ **Estimulación Temprana (0-3 años)**: Psicomotricidad, sensorial, lenguaje
+- 🎨 **Artes Creativas (4-8 años)**: Pintura, modelado, teatro, música  
+- 🔬 **Tardes de Exploradores**: Ciencia, cocina, ecología
+- ☕ **Respiro Creativo**: Servicio flexible de cuidado
 
-- **index.html** - Página principal con hero section
-- **quienes-somos.html** - Misión, visión, valores y equipo
-- **proyectos.html** - Iniciativas especiales y colaboraciones
-- **talleres.html** - Talleres de artes creativas
-- **cursos.html** - Cursos para padres y educadores
-- **estimulaciones.html** - Programas de estimulación temprana
-- **donde-estamos.html** - Ubicación y contacto
-- **contacto.html** - Formulario de contacto
-- **portal-kids.html** - Área interactiva para niños
-- **eventos.html** - Calendario de eventos
+### Filosofía
+- 🌱 **Respeto** por el ritmo único de cada niño
+- 🧠 **Ciencia** fundamentada en desarrollo infantil
+- ❤️ **Empatía** con las familias
+- 🌍 **Sostenibilidad** con materiales naturales
 
-## 🎨 Diseño
+## 📄 Páginas Incluidas
 
-- **Colores principales**: Verde sage (#8B9A6F), Terracota (#D4A574), Crema (#E8C4B0)
-- **Tipografía**: Segoe UI, sans-serif
-- **Responsive**: Adaptable a todos los dispositivos
-- **Accesibilidad**: Cumple con estándares WCAG
+| Página | Descripción |
+|--------|-------------|
+| **Inicio** | Hero section y servicios principales |
+| **Quiénes Somos** | Misión, visión, valores y equipo |
+| **Proyectos** | Iniciativas especiales y colaboraciones |
+| **Talleres** | Artes creativas y tardes de exploradores |
+| **Cursos** | Formación para padres y educadores |
+| **Estimulaciones** | Programas de desarrollo temprano |
+| **Dónde Estamos** | Ubicación, horarios y cómo llegar |
+| **Contacto** | Formulario y información de contacto |
+| **Portal Kids** | Área interactiva para niños |
+| **Eventos** | Calendario y actividades especiales |
 
-## 🚀 Deployment
+## 🎨 Identidad Visual
 
-Este proyecto está optimizado para Vercel:
+```
+Colores principales:
+- Verde Sage: #8B9A6F
+- Terracota: #D4A574
+- Crema: #E8C4B0
+- Oscuro: #3D3D3D
+```
 
-1. Conecta tu repositorio de GitHub a Vercel
-2. Configura la rama principal como `main`
-3. Vercel detectará automáticamente que es un sitio estático
-4. Tu sitio estará en línea en minutos
+## 🚀 Deployment en Vercel
 
-## 📧 Contacto
+### Pasos rápidos:
+
+1. **Conectar GitHub**
+   ```bash
+   # Asegúrate que el repositorio esté en GitHub
+   git remote -v
+   ```
+
+2. **Ir a Vercel**
+   - Ve a https://vercel.com
+   - Haz login con GitHub
+   - Haz clic en "New Project"
+   - Selecciona `ingenieriaconmanuel/malamu-web`
+
+3. **Configuración de Build**
+   - Framework: **Static Site (HTML)**
+   - Build Command: (dejar vacío)
+   - Output Directory: (dejar vacío)
+
+4. **Deploy**
+   - Haz clic en "Deploy"
+   - Vercel automáticamente detectará los archivos HTML
+
+### URL después del deploy:
+```
+https://malamu-web.vercel.app
+```
+
+## 📱 Características Técnicas
+
+- ✅ HTML5 semántico
+- ✅ CSS3 responsive (Mobile-first)
+- ✅ JavaScript vanilla (sin dependencias)
+- ✅ Optimizado para SEO
+- ✅ Accesibilidad WCAG
+- ✅ Performance optimizado
+- ✅ Menú hamburguesa para móvil
+- ✅ Animaciones suaves
+
+## 📞 Contacto
 
 - **Email**: hola@malamu.com
-- **Teléfono**: +57 3005478
-- **Ubicación**: Santo Tomás, Colombia
+- **Teléfono**: +57 (1) 300-123-4567
+- **Ubicación**: Bogotá, Colombia
+
+## 📝 Personalización
+
+Para personalizar el sitio:
+
+1. **Cambiar colores**: Edita las variables en `css/styles.css` (líneas 1-11)
+2. **Actualizar contacto**: Busca los datos de ejemplo y reemplaza
+3. **Agregar logo**: Reemplaza los emojis con imágenes SVG/PNG
+4. **Contenido**: Actualiza textos en cada HTML según necesite
 
 ## 📄 Licencia
 
 Todos los derechos reservados © 2024 MALAMU
+
+---
+
+**Creado con ❤️ para el desarrollo consciente de niños**
